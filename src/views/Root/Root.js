@@ -6,7 +6,7 @@ const Root = () => (
   <div>
     <GlobalStyle />
     <h1>Hello</h1>
-    <Button width="400px">Close / Save</Button>
+    <Button width="220px">Close / Save</Button>
     <Button secondary>Remove</Button>
   </div>
 );

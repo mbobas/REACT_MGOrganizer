@@ -5,6 +5,10 @@ const GlobalStyle = createGlobalStyle`
 
     *, *::before, *::after {
         box-sizing: border-box;
+        * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
     }
     html {
         font-size: 62.5% // 1 rem = 10px becouse 16 px it's a 100% of standard value for browser. Its simple to calculate. 
