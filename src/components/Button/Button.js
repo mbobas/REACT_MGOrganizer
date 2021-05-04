@@ -11,7 +11,6 @@ font-weight: 500;
 font-size: 16px;
 text-transform: uppercase;
 
-
 ${({secondary})=> (
     secondary && css`
     background-color: #FFD82B;
