@@ -6,10 +6,11 @@ import {theme} from 'theme/mainTheme';
 import Input from 'components/atoms/Input/Input'
 import ButtonIcon from 'components/atoms/ButtonIcon/ButtonIcon';
 import bulb from 'assets/icons/bulb.svg';
+import Card from 'components/molecules/Card/Card';
 
 const YellowBackgroud = styled.div`
     display: flex;
-    background-color: ${(props) => props.theme.primary};
+    background-color: ${(props) => props.theme.note};
     justify-content: center;
     align-items: center;
     width: 500px;
@@ -29,6 +30,7 @@ const Root = () => (
       <YellowBackgroud>
       <ButtonIcon icon={bulb} />
       </YellowBackgroud>
+      <Card cardType="twitter" />
       </>
     </ThemeProvider>
   </div>
