@@ -8,3 +8,14 @@ export const parameters = {
     },
   },
 }
+
+// export const decorators = [
+//   (Story) => (
+//   <>
+//   <GlobalStyle />
+//   <ThemeProvider theme={theme}>
+//   <Story />
+//   </ThemeProvider>
+//   </>
+//   ),
+//   ];

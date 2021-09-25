@@ -1,8 +1,7 @@
 import styled, {css} from 'styled-components';
 
 const Button = styled.button`
-background-color: ${(props) => props.theme.primary};
-width: ${({width}) => width || '220px'};
+background-color: ${({theme}) => theme.primary};
 height: 47px;
 border: none;
 border-radius: 50px;
@@ -25,3 +24,4 @@ ${({secondary})=> (
 export default Button;
 
 /** background-color: ${({ color }) => color || 'hsl(49,100%,58%)'}; */
+/* width: ${({width}) => width || '220px'}; */
