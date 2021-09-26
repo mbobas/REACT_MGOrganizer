@@ -72,7 +72,7 @@ const StyledLinkButton = styled.a`
 const Card = ({ cardType }) => (
   <StyledWrapper>
     <InnerWrapper activeColor={cardType}>
-      <StyledHeading>Hello Roman</StyledHeading>
+      <StyledHeading>Hello Michal</StyledHeading>
       <DateInfo>3 days</DateInfo>
       {cardType === 'twitter' && <StyledAvatar src="https://unavatar.io/mbobas" />}
       {cardType === 'article' && <StyledLinkButton href="mbobas.github.com" />}
