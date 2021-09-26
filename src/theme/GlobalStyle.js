@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 62.5% // 1 rem = 10px becouse 16 px it's a 100% of standard value for browser. Its simple to calculate. 
     }
     body {
+        padding-left:150px;
         font-size: 1.6rem; // default value for all sites / happy rems
         font-family: "Montserrat", sans-serif;
     }
