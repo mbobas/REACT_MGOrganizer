@@ -2,7 +2,7 @@ import React from 'react';
 import UserPageTemplate from 'templates/UserPageTemplate';
 
 const Twitters = () => (
-    <UserPageTemplate>
+    <UserPageTemplate pageType="twitter">
         <h1>Twitters</h1>
     </UserPageTemplate>
 )
