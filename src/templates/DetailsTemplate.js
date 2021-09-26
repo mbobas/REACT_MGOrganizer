@@ -8,7 +8,7 @@ import UserPageTemplate from './UserPageTemplate';
 
 const DetailsTemplate = () => (
   <UserPageTemplate>
-    <h1>Note</h1>
+    <h1>Notes</h1>
     <p>
         Lorem 
     </p>

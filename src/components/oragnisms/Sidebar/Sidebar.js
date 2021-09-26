@@ -1,3 +1,5 @@
+/* eslint-disable no-dupe-keys */
+/* eslint-disable react/require-default-props */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
@@ -17,7 +19,7 @@ const StyledWrapper = styled.nav`
   padding: 25px 0;
   width: 150px;
   height: 100vh;
-  background-color: ${({ activeColor, theme }) => (activeColor ? theme[activeColor] : theme.note)};
+  background-color: ${({ activeColor, theme }) => (activeColor ? theme[activeColor] : theme.notes)};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -66,6 +68,7 @@ const Sidebar = ({ pageType }) => (
 
 Sidebar.propTypes = {
   pageType: PropTypes.string.isRequired,
+  pageType: PropTypes.oneOf(['notes', 'twitters', 'articles']),
 };
 
 export default Sidebar;
